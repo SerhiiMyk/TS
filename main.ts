@@ -60,7 +60,7 @@ interface IAnimal {
     move: string;
     say: string;
 
-    info(msg: string): void;
+    info(): void;
 }
 
 class Cat implements IAnimal {
